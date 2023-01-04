@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(#7785AC, #EFD5C3); 
+}
+
+h1 {
+    font-family:'Aleo', serif;
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    font-size: 50px;
+    color: #fff;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #896978;
+
+}
+
+h2.Order {
+    font-family:'Aleo', serif;
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 93%;
+    color: #A5E6BA;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #360568;
+
+}
+
+h2.Order:hover {
+    font-family:'Aleo', serif;
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 93%;
+    color: #A5E6BA;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #360568;
+    text-decoration: underline;
+    text-decoration-color: #A5E6BA;
+    cursor: pointer;
+
+}
+
+h2.About-Us {
+    font-family:'Aleo', serif;
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    color: #A5E6BA;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #360568;
+
+}
+
+h2.About-Us:hover {
+    font-family:'Aleo', serif;
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    color: #A5E6BA;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #360568;
+    text-decoration: underline;
+    text-decoration-color: #A5E6BA;
+    cursor: pointer;
+
+}
+
+
+h3 {
+    font-family:'Aleo', serif;
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: #360568;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #A5E6BA;
+
+}
