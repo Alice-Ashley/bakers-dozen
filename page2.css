@@ -13,7 +13,7 @@ h1 {
     position: absolute;
     top: 0%;
     left: 50%;
-    font-size: 50px;
+    font-size: 60px;
     color: #fff;
     -webkit-text-stroke: 1.5px;
     -webkit-text-stroke-color: #896978;
@@ -22,11 +22,12 @@ h1 {
 
 h2.Order {
     font-family:'Aleo', serif;
+    font-size: 35px;
     display: inline;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 0%;
-    left: 88%;
+    left: 86%;
     color: #A5E6BA;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #360568;
@@ -35,11 +36,12 @@ h2.Order {
 
 h2.Order:hover {
     font-family:'Aleo', serif;
+    font-size: 35px;
     display: inline;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 0%;
-    left: 88%;
+    left: 86%;
     color: #A5E6BA;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #360568;
@@ -51,6 +53,7 @@ h2.Order:hover {
 
 h2.About-Us {
     font-family:'Aleo', serif;
+    font-size: 35px;
     display: inline;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -64,6 +67,7 @@ h2.About-Us {
 
 h2.About-Us:hover {
     font-family:'Aleo', serif;
+    font-size: 35px;
     display: inline;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -81,6 +85,7 @@ h2.About-Us:hover {
 
 h3 {
     font-family:'Aleo', serif;
+    font-size: 30px;
     display: inline;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -95,13 +100,15 @@ h3 {
 /* Card1 */
 
 img {
-    border-radius: 12px;
+    border-radius: 12px;    
+    border-color: #360568;
     width: 400px;
     height: 400px;
     object-fit: cover;
     display: block;
+    margin-top: 10px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto; 
 }
 
 #container {
@@ -121,26 +128,19 @@ img {
     padding: 8px;
     border-radius: 12px;
     width: 25%;
-    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .name {
+  /* .name {
     font-family:'Aleo', serif;
-    font-size: larger;
+    font-size: 30px;
     font-weight: 600;
     margin-top: 16px;
     padding-left: 40%;
     color: #896978;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: black;
-  }
-
-  p {
-    font-family:'Aleo', serif;
-    font-size: 14px;
-    color: #35202A;
-    line-height: 150%;
-  }
+  } */
 
 
 /*Card2*/
@@ -151,15 +151,16 @@ img {
     padding: 8px;
     border-radius: 12px;
     width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .name {
+  /* .name {
     font-family:'Aleo', serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     margin-top: 16px;
     padding-left: 40%;
-  }
+  } */
 
 
   /*Card3*/
@@ -170,19 +171,33 @@ img {
     padding: 8px;
     border-radius: 12px;
     width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .name {
     font-family:'Aleo', serif;
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 600;
-    margin-top: 16px;
-    padding-left: 40%;
+    margin-top: 1px;
+    padding-left: 35%;
+    color: #896978;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+  p {
+    font-family:'Aleo', serif;
+    font-size: 18px;
+    color: #35202A;
+    line-height: 150%;
+    margin-left: 10px;
   }
 
   .checkBox {
-    /* padding-bottom: 10rem; */
-    font-size: large;
+    font-size: x-large;
+    font-family: 'Aleo', serif;
+    transform: translate(15%, 15%);
+    margin-bottom: 10px;
   }
 
   button {

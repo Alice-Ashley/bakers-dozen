@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(#7785AC, #EFD5C3); 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family:'Aleo', serif;
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    font-size: 60px;
+    color: #fff;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #896978;
+    transform: translate(-50%, -50%);
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+    margin-bottom: 5.5%;
+}
+
+.section img {
+    height: 600px;
+    border-radius: 12px;
+}
+
+p {
+    font-family:'Aleo', serif;
+    font-size: 25px;
+    color: #35202A;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    text-align:justify
+  }
+
+
+h2.Order {
+    font-family:'Aleo', serif;
+    font-size: 35px;
+    display: inline;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 95%;
+    color: #A5E6BA;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #360568;
+
+}
+
+h3 {
+    font-family:'Aleo', serif;
+    font-size: 30px;
+    display: inline;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 5%;
+    color: #360568;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #A5E6BA;
+
+}
+
+button { 
+    background:none; 
+    border:none; 
+    font-family:'Aleo', serif;
+    font-size: 35px;
+    display: inline;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 3%;
+    left: 95%;
+    color: #A5E6BA;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #360568;
+}
+
+button:hover {
+    font-family:'Aleo', serif;
+    font-size: 35px;
+    display: inline;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 3%;
+    left: 95%;
+    color: #A5E6BA;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #360568;
+    text-decoration: underline;
+    text-decoration-color: #A5E6BA;
+    cursor: pointer;
+}
