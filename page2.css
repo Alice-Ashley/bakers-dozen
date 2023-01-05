@@ -27,8 +27,10 @@ h2.Order {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 0%;
-    left: 86%;
+    left: 83%;
     color: #A5E6BA;
+    text-decoration: underline;
+    text-decoration-color: #A5E6BA;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #360568;
 
@@ -41,7 +43,7 @@ h2.Order:hover {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 0%;
-    left: 86%;
+    left: 83%;
     color: #A5E6BA;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #360568;
@@ -50,38 +52,6 @@ h2.Order:hover {
     cursor: pointer;
 
 }
-
-h2.About-Us {
-    font-family:'Aleo', serif;
-    font-size: 35px;
-    display: inline;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 0%;
-    left: 95%;
-    color: #A5E6BA;
-    -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: #360568;
-
-}
-
-h2.About-Us:hover {
-    font-family:'Aleo', serif;
-    font-size: 35px;
-    display: inline;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 0%;
-    left: 95%;
-    color: #A5E6BA;
-    -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: #360568;
-    text-decoration: underline;
-    text-decoration-color: #A5E6BA;
-    cursor: pointer;
-
-}
-
 
 h3 {
     font-family:'Aleo', serif;
@@ -131,16 +101,6 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  /* .name {
-    font-family:'Aleo', serif;
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 16px;
-    padding-left: 40%;
-    color: #896978;
-    -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: black;
-  } */
 
 
 /*Card2*/
@@ -154,13 +114,6 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  /* .name {
-    font-family:'Aleo', serif;
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 16px;
-    padding-left: 40%;
-  } */
 
 
   /*Card3*/
@@ -200,7 +153,7 @@ img {
     margin-bottom: 10px;
   }
 
-  button {
+  button1 {
     position: absolute;
     top: 93%;
     left: 50%;
@@ -215,7 +168,7 @@ img {
     font-weight: 400;
 }
 
-button:hover {
+button1:hover {
     position: absolute;
     top: 93%;
     left: 50%;
@@ -230,4 +183,40 @@ button:hover {
     font-weight: 400;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     cursor: pointer;
+}
+
+
+button2 { 
+  background:none; 
+  border:none; 
+  font-family:'Aleo', serif;
+  font-size: 35px;
+  display: inline;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 3%;
+  left: 92%;
+  color: #A5E6BA;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: #360568;
+  padding: 0px;
+  top: 3%;
+  left: 92%;
+}
+
+button2:hover {
+  font-family:'Aleo', serif;
+  font-size: 35px;
+  display: inline;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 0px;
+  top: 3%;
+  left: 92%;
+  color: #A5E6BA;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: #360568;
+  text-decoration: underline;
+  text-decoration-color: #A5E6BA;
+  cursor: pointer;
 }

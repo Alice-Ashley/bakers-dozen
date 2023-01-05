@@ -45,18 +45,36 @@ p {
     text-align:justify
   }
 
-
-h2.Order {
+  h2 {
     font-family:'Aleo', serif;
     font-size: 35px;
     display: inline;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 0%;
-    left: 95%;
+    top: 1%;
+    left: 92%;
+    color: #A5E6BA;
+    text-decoration: underline;
+    text-decoration-color: #A5E6BA;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: #360568;
+
+}
+
+h2:hover {
+    font-family:'Aleo', serif;
+    font-size: 35px;
+    display: inline;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 1%;
+    left: 92%;
     color: #A5E6BA;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #360568;
+    text-decoration: underline;
+    text-decoration-color: #A5E6BA;
+    cursor: pointer;
 
 }
 
@@ -82,8 +100,8 @@ button {
     display: inline;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 3%;
-    left: 95%;
+    top: 4%;
+    left: 83%;
     color: #A5E6BA;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #360568;
@@ -95,8 +113,8 @@ button:hover {
     display: inline;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 3%;
-    left: 95%;
+    top: 4%;
+    left: 83%;
     color: #A5E6BA;
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: #360568;
